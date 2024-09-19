@@ -1,3 +1,18 @@
+:root {
+    --azul:#636b85;
+    --verde:#84996c;
+    --beige:#B7B1A7;
+    --morado:#8068A8;
+    --AzulOscuro:#314F6C;
+}
 h1 {
     text-align: center;
+}
+span {
+    font-size: 20px;
+    font-family: "Work Sans", sans-serif;
+}
+.tittle {
+    color: var(--AzulOscuro);
+    font-family: "Work Sans", sans-serif;
 }

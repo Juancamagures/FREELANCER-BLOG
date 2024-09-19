@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi sitio web freelancer</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="preload" href="css/normalize.css" as="style"/>
     <link href="css/styles.css" rel="stylesheet">
-    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="preload" href="css/styles.css" as="style"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <h1>Juan Camilo Agudelo FREELANCER</h1>
+        <h1 class="tittle">Juan Camilo Agudelo <span>FREELANCER</span></h1>
     </header>
-    <nav>
+    <nav id="nav">
         <a href="AboutMe.html">Sobre mi</a>
         <a href="#">Inicio</a>
         <a href="#">Certificados</a>
         <a href="#">Portafolio</a>
     </nav>
     <section>
-        <h2>Diseno de paginas web portafolio</h2>
+        <h2 class="tittle">Diseno de paginas web portafolio</h2>
         <p>Medellin, Antioquia</p>
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-radar-2" width="64" height="64" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -32,9 +37,9 @@
     </section>
     
     <main>
-        <h2>Mis propositos</h2>
+        <h2 class="tittle">Mis propositos</h2>
         <section>
-            <h3>Obtener un trabajo</h3>
+            <h3 class="tittle">Obtener un trabajo</h3>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-premium-rights" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
@@ -47,7 +52,7 @@
             Praesent efficitur interdum cursus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
         </section>
         <section>
-            <h3>Crear aplicaciones</h3>
+            <h3 class="tittle">Crear aplicaciones</h3>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-android" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M4 10l0 6" />
@@ -68,7 +73,7 @@
             Aenean a feugiat mauris. Praesent efficitur interdum cursus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
         </section>
         <section>
-            <h3>Aprendizaje</h3>
+            <h3 class="tittle">Aprendizaje</h3>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-books" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M5 4m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
@@ -85,7 +90,7 @@
         </section>
     </main>
     <section>
-        <h2>Contacto</h2>
+        <h2 class="tittle">Contacto</h2>
         <form>
             <fieldset>
                 <legend>Complete todos los campos</legend>
