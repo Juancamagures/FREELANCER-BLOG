@@ -16,3 +16,9 @@ span {
     color: var(--AzulOscuro);
     font-family: "Work Sans", sans-serif;
 }
+.NavegacionPrincipal {
+    background-color: var(--beige);
+}
+.contenedor {
+    width: 1200px;
+}
