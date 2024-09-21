@@ -30,7 +30,7 @@ span {
     background-color: var(--beige);
 }
 .Navegacion_Principal {
-    padding: 15px;
+    padding: 14px;
     display: flex;
     flex-direction: column;
     
@@ -49,10 +49,11 @@ span {
     font-weight: bold;
     display: block;
     text-align: center;
+    margin-left: 10px;
 }
 .Navegacion_Principal a:hover {
     background-color: var(--AzulOscuro); 
-    padding: 15px;
+    padding: 19px;
     margin: -15px;
 }
 .hero {
@@ -76,4 +77,8 @@ span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.ubicacion {
+    display: flex;
+    flex-direction:row;
 }
