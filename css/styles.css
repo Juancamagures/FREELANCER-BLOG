@@ -1,9 +1,9 @@
 :root {
     --azul:#636b85;
     --verde:#84996c;
-    --beige:#B7B1A7;
-    --morado:#8068A8;
-    --AzulOscuro:#314F6C;
+    --azulClaro:#c4cfd9;
+    --morado:#48684e;
+    --morao:#6a4c93;
 }
 html {
     box-sizing: border-box;
@@ -19,7 +19,7 @@ span {
 h1,h2,h3 {
     font-family: "Work Sans", sans-serif;
     text-align: center;
-    color: #314F6C;
+    color: var(--morao);
 }
 p {
     font-family: "Work Sans", sans-serif; 
@@ -29,7 +29,7 @@ p {
     margin: 0 auto;
 }
 .nav-background { 
-    background-color: var(--beige);
+    background-color: var(--morao);
 }
 .Navegacion_Principal {
     padding: 10px;
@@ -44,7 +44,7 @@ p {
     }
 }
 .Navegacion_Principal a {
-    color:aliceblue;
+    color:var(--azulClaro);
     font-family: "Work Sans", sans-serif;
     text-decoration: none;
     font-weight: bold;
@@ -53,7 +53,7 @@ p {
     margin-left: 10px;
 }
 .Navegacion_Principal a:hover {
-    background-color: var(--AzulOscuro); 
+    background-color: var(--morado); 
     padding: 10px;
     margin: -15px;
 }
@@ -82,7 +82,7 @@ p {
     color: #dfe9f3;
 }
 .Button {
-    background-color: #314F6C;
+    background-color: var(--morao);
     padding: 15px;
     border-radius: 6px;
     text-transform: uppercase;
@@ -145,7 +145,7 @@ body {
 }
 /** contacto **/
 .formulario {
-    background-color: #8068A8;
+    background-color: var(--morado);
     width:min(600px, 100%);
     margin: 0 auto;
     padding: 20px 10px;
@@ -155,7 +155,7 @@ body {
     border:none;
 }
 .formulario legend{
-    color: #314F6C;
+    color: var(--azulClaro);
     text-transform: uppercase;
     font-weight: 700;
     font-family: "Work Sans", sans-serif;
@@ -184,6 +184,8 @@ body {
 }
 .campo {
     margin-bottom: 10px;
+    font-family: "Work Sans", sans-serif;
+    color: var(--azulClaro);
 }
 .campo textarea {
     height: 100px;
