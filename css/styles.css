@@ -21,6 +21,11 @@ h1,h2,h3 {
     text-align: center;
     color: var(--morao);
 }
+#design {
+    background-color: var(--azulClaro);
+    padding: 5px;
+    border-radius: 5px;
+}
 p {
     font-family: "Work Sans", sans-serif; 
 }
